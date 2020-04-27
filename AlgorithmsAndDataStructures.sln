@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{F5AEE9C7-54FE-427F-B3EE-39DFD4E89A25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{F5AEE9C7-54FE-427F-B3EE-39DFD4E89A25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{231C6726-8A47-4DA4-9863-B4B0E31E4F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsAndDataStructures.Tests", "AlgorithmsAndDataStructures.Tests\AlgorithmsAndDataStructures.Tests.csproj", "{58E21703-321B-49F2-A6B5-0077AE8CE61B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{F5AEE9C7-54FE-427F-B3EE-39DFD4E89A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5AEE9C7-54FE-427F-B3EE-39DFD4E89A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5AEE9C7-54FE-427F-B3EE-39DFD4E89A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E21703-321B-49F2-A6B5-0077AE8CE61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E21703-321B-49F2-A6B5-0077AE8CE61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E21703-321B-49F2-A6B5-0077AE8CE61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E21703-321B-49F2-A6B5-0077AE8CE61B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{58E21703-321B-49F2-A6B5-0077AE8CE61B} = {231C6726-8A47-4DA4-9863-B4B0E31E4F67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5041752-A8F6-4A15-9594-CB0A103B7BC7}
